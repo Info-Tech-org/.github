@@ -1,29 +1,38 @@
 # 安全政策（组织默认）
 
-## 支持的版本
+我们认真对待安全和隐私——既对用户，也对代码。  
+若你发现漏洞，请**不要**在公开 Issue 里披露，按下面方式私下报告。
 
-我们会对以下版本提供安全更新：
+---
 
-| 版本 | 支持状态 |
-|------|----------|
-| 各仓库最新主分支 | ✅ 支持 |
-| 已发布 tag（如 v1.x） | ✅ 按需支持 |
-| 其他 | ❌ 不支持 |
+## 我们维护的版本
 
-## 如何报告漏洞
+| 版本 | 支持 |
+|------|------|
+| 各仓库当前主分支 | ✅ 会修 |
+| 已发布 tag（如 v1.x） | ✅ 按需修 |
+| 其他 | ❌ 不保证 |
 
-若你发现与**安全相关**的漏洞（如认证绕过、敏感信息泄露、注入等），请**不要**在公开 Issue 中披露。
+---
 
-1. **通过 GitHub 私密报告**  
-   在对应仓库的 [Security Advisories](https://github.com/Info-Tech-org/Dialog/security/advisories/new) 中新建安全建议，或发送邮件至仓库维护者（若在 Profile 中公开）。
+## 怎么报告漏洞
 
-2. **提供信息**  
+若你发现与**安全相关**的问题（例如认证绕过、敏感信息泄露、注入等）：
+
+1. **走私密渠道**  
+   在对应仓库的 [Security Advisories](https://github.com/Info-Tech-org/Dialog/security/advisories/new) 新建建议，或联系维护者（若其公开了联系方式）。
+
+2. **尽量说清**  
    - 漏洞类型与影响范围  
    - 复现步骤与环境  
-   - 可行时的修复建议  
+   - 若有修复思路，也欢迎一并写  
 
-我们会在确认后尽快回复，并在修复后（必要时）发布安全说明与致谢。
+我们会在确认后尽快回复；修复后如需公开致谢，会先和你确认。
+
+---
 
 ## 非安全问题
 
-一般 Bug 或功能建议请使用各仓库的 [Issues](https://github.com/Info-Tech-org/Dialog/issues)，参见 [CONTRIBUTING.md](CONTRIBUTING.md)。
+一般 Bug 或功能建议请走各仓库的 [Issues](https://github.com/Info-Tech-org/Dialog/issues)，参见 [CONTRIBUTING.md](CONTRIBUTING.md)。
+
+感谢你帮忙把我们的东西弄得更稳、更可信。

@@ -1,43 +1,52 @@
 # 贡献指南（组织默认）
 
-感谢你对 **Info-Tech-org（1NF0TECH）** 的关注！我们欢迎所有形式的贡献。
+谢谢你对 **Info-Tech-org（1NF0TECH）** 有兴趣。  
+无论是修一个 typo、报一个 Bug，还是提一版实现思路，我们都欢迎。
+
+---
 
 ## 组织与仓库
 
-- **主仓库**：[Dialog](https://github.com/Info-Tech-org/Dialog) — 家庭对话语义安全系统（后端、前端、设备端、扩展等）
+- **主仓库**：[Dialog](https://github.com/Info-Tech-org/Dialog) — 家庭对话语义安全（后端、前端、设备端、扩展）
 - **官网**：[语镜 — Dialog Safety Infra](https://infotech-launch.vercel.app/)
-- **组织原则**：[ORG_PRINCIPLES.md](ORG_PRINCIPLES.md)
+- **我们信什么**：[ORG_PRINCIPLES.md](ORG_PRINCIPLES.md)
 
-请优先在**具体仓库**中参与贡献；各仓库的 README 与（若存在）仓库内 CONTRIBUTING 会提供更细的步骤与规范。以下为组织级通用约定。
+建议先在**具体仓库**里动手；各仓的 README 和（若有）仓库内 CONTRIBUTING 会写得更细。下面是组织级的共通约定。
 
-## 如何贡献
+---
 
-### 报告 Bug
+## 怎么贡献
 
-1. 进入对应仓库的 [Issues](https://github.com/Info-Tech-org/Dialog/issues)，查看是否已有相关报告
-2. 若无，新建 Issue，包含：清晰标题与描述、重现步骤、期望 vs 实际行为、环境信息、相关日志或错误信息
+### 报 Bug
 
-### 提出新功能
+1. 到对应仓库的 [Issues](https://github.com/Info-Tech-org/Dialog/issues) 看看有没有人报过。
+2. 没有的话，开一个：说清楚**现象、复现步骤、你期望 vs 实际**，能贴环境信息和日志更好。
 
-1. 在对应仓库新建 Issue，使用 `enhancement` 等标签
-2. 描述使用场景与价值，如有实现思路或接口设计可一并说明
+### 提想法 / 新功能
 
-### 提交代码
+1. 在对应仓库开 Issue，打上 `enhancement` 之类标签。
+2. 写清楚**场景和为什么需要**；有实现思路或接口设想也欢迎一起写。
 
-1. Fork 目标仓库，创建特性分支（如 `feature/xxx`、`fix/xxx`）
-2. 遵循该仓库的代码风格与测试要求，更新相关文档
-3. 使用 [Conventional Commits](https://www.conventionalcommits.org/) 提交信息（`feat:`、`fix:`、`docs:` 等）
-4. 推送到 GitHub 并创建 Pull Request，提供清晰描述并关联 Issue
+### 提代码（PR）
 
-## 通用规范
+1. Fork 目标仓库，开一条分支（如 `feature/xxx`、`fix/xxx`）。
+2. 跟仓库现有风格和测试方式保持一致，该改的文档一起改。
+3. 提交信息用 [Conventional Commits](https://www.conventionalcommits.org/)：`feat:`、`fix:`、`docs:` 等。
+4. 推上去开 PR，说清改了什么、为什么，能关联 Issue 最好。
 
-- **代码风格**：Python 遵循 PEP 8；JS/TS 与各仓库既有风格一致
-- **安全**：勿提交真实密钥或敏感配置；安全问题请按 [SECURITY.md](SECURITY.md) 私下报告
-- **行为**：请遵守 [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)，尊重他人、建设性讨论
+---
 
-## 需要帮助
+## 约定
 
-- 各仓库 README 与 `docs/` 中有项目结构与快速开始说明
-- 组织原则与愿景见 [ORG_PRINCIPLES.md](ORG_PRINCIPLES.md)
+- **代码**：Python 跟 PEP 8；JS/TS 跟各仓既有风格。我们偏好可读、可维护。
+- **安全**：别把真密钥、敏感配置交上来；安全问题走 [SECURITY.md](SECURITY.md)，私下说。
+- **相处**：遵守 [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)，对事不对人，建设性讨论。
 
-感谢你的贡献！
+---
+
+## 卡住了？
+
+- 各仓 README 和 `docs/` 里有结构和快速开始。
+- 组织在做什么、信什么，见 [ORG_PRINCIPLES.md](ORG_PRINCIPLES.md)。
+
+再次感谢。你的每一笔贡献，都是在帮「少一句后悔」多一点点可能。
