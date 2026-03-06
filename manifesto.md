@@ -20,8 +20,6 @@
 
 <div align="center">
 
-<img src="assert/brand-assets/00-brand-title.png" alt="语镜 INFOTECH · 品牌主视觉" width="560" />
-
 **语镜** · INFOTECH — 家庭对话的语义安全层
 
 </div>
@@ -113,5 +111,11 @@
 在伤害成型之前，让对话回到安全区。
 
 [**官网**](https://infotech-launch.vercel.app/) · [**GitHub 组织**](https://github.com/Info-Tech-org) · [**Dialog**](https://github.com/Info-Tech-org/Dialog) · [**Dialog_HardWare**](https://github.com/Info-Tech-org/Dialog_HardWare)（硬件/固件）
+
+<hr/>
+
+<p>
+  <img src="assert/brand-assets/00-brand-title.png" alt="语义安全识别系统 · 品牌主视觉" width="560" />
+</p>
 
 </div>

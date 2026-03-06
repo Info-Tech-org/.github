@@ -7,8 +7,6 @@
 
 <br/>
 
-<img src="https://raw.githubusercontent.com/Info-Tech-org/.github/main/assert/brand-assets/00-brand-title.png" alt="语镜 INFOTECH — 家庭对话的语义安全层" width="520" />
-
 ---
 
 ### 在伤害成型之前，把对话接住
@@ -74,5 +72,9 @@
 ---
 
 *愿孩子的记忆里，少一道不该有的疤。*
+
+<hr/>
+
+<img src="../assert/brand-assets/00-brand-title.png" alt="语义安全识别系统 · 品牌主视觉" width="520" />
 
 </div>
